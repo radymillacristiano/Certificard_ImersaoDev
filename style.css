@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1462332420958-a05d1e002413?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1507&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background: #ecf4ff;
+  margin: 64px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  border-radius: 20px;
+  color: #1c1c1c;
+  padding: 70px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil > img {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 460px;
+  max-height: 150px;
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo > h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo > h3 {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.tema button {
+  align-self: flex-end;
+  background: #ecf4ff;
+  border: 2px solid #0e1d2f;
+  box-sizing: border-box;
+  border-radius: 25px;
+  font-size: 15px;
+  line-height: 28px;
+  color: #0e1d2f;
+  margin-top: 10px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.tema button:hover {
+  background: #0e1d2f;
+  color: #ecf4ff;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  background: linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.7567401960784313) 0%,
+    rgba(88, 170, 207, 1) 0%,
+    rgba(91, 215, 230, 1) 86%
+  );
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.3);
+  border-radius: 20px;
+  font-size: 20px;
+  margin: 35px 0px 0px 0px;
+  padding: 10px;
+  color: #1c1c1c;
+}
+
+ul {
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 16px;
+}
+
+.lista-projetos {
+  margin-bottom: 16px;
+  margin: 10px;
+}
+
+.lista-projetos .cert {
+  text-align: center;
+}
+
+a {
+  color: #343a40;
+}
+
+a:hover {
+  color: #184e77;
+}
+
+.dark {
+  background-image: url("https://images.unsplash.com/photo-1610296669228-602fa827fc1f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1375&q=80");
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.color .projetos {
+  color: #1c1c1c;
+}
+
+.dark .redes {
+  color: #f6f6f6;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  border: 1px solid #f7f7f7;
+  color: white;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.dark .tema button:hover {
+  background: #ecf4ff;
+  color: #0e1d2f;
+}
+
+.redes {
+  display: inline-axis;
+  flex-direction: inline;
+  text-align: center;
+  margin-top: 40px;
+  color: #1c1c1c;
+  padding-left: 20px;
+}
+
+.rede-titulo {
+  margin-bottom: 20px;
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.redes img {
+  width: 50px;
+  margin: 20px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.redes img:hover {
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.9);
+}
+
+footer .redes {
+  align-items: center;
+}
+
+/* DESAFIOS
+- Terminar todo o design que está no figma OK
+- Adicionar suas redes sociais de forma que quem clique consiga abrí-las OK
+ */
